@@ -1,0 +1,310 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6430AF9E16913BBF008A42EC /* bgFolder.png in Resources */ = {isa = PBXBuildFile; fileRef = 6430AF9D16913BBF008A42EC /* bgFolder.png */; };
+		6498676B1691149700BCE028 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498676A1691149700BCE028 /* UIKit.framework */; };
+		6498676D1691149700BCE028 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498676C1691149700BCE028 /* Foundation.framework */; };
+		6498676F1691149700BCE028 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6498676E1691149700BCE028 /* CoreGraphics.framework */; };
+		649867751691149700BCE028 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 649867731691149700BCE028 /* InfoPlist.strings */; };
+		649867771691149800BCE028 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 649867761691149700BCE028 /* main.m */; };
+		6498677B1691149800BCE028 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6498677A1691149800BCE028 /* AppDelegate.m */; };
+		6498677D1691149800BCE028 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6498677C1691149800BCE028 /* Default.png */; };
+		6498677F1691149800BCE028 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6498677E1691149800BCE028 /* Default@2x.png */; };
+		649867811691149800BCE028 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 649867801691149800BCE028 /* Default-568h@2x.png */; };
+		649867841691149800BCE028 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 649867831691149800BCE028 /* ViewController.m */; };
+		649867871691149800BCE028 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 649867851691149800BCE028 /* ViewController.xib */; };
+		6498678E1691170300BCE028 /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 6498678D1691170300BCE028 /* bg.png */; };
+		64986790169129BC00BCE028 /* bg2.png in Resources */ = {isa = PBXBuildFile; fileRef = 6498678F169129BC00BCE028 /* bg2.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6430AF9D16913BBF008A42EC /* bgFolder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bgFolder.png; path = VSFolder/bgFolder.png; sourceTree = "<group>"; };
+		649867661691149700BCE028 /* VSFolder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VSFolder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6498676A1691149700BCE028 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6498676C1691149700BCE028 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6498676E1691149700BCE028 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		649867721691149700BCE028 /* VSFolder-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "VSFolder-Info.plist"; sourceTree = "<group>"; };
+		649867741691149700BCE028 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		649867761691149700BCE028 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		649867781691149800BCE028 /* VSFolder-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VSFolder-Prefix.pch"; sourceTree = "<group>"; };
+		649867791691149800BCE028 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6498677A1691149800BCE028 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6498677C1691149800BCE028 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6498677E1691149800BCE028 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		649867801691149800BCE028 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		649867821691149800BCE028 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		649867831691149800BCE028 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		649867861691149800BCE028 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		6498678D1691170300BCE028 /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg.png; path = VSFolder/bg.png; sourceTree = "<group>"; };
+		6498678F169129BC00BCE028 /* bg2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = bg2.png; path = VSFolder/bg2.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		649867631691149700BCE028 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6498676B1691149700BCE028 /* UIKit.framework in Frameworks */,
+				6498676D1691149700BCE028 /* Foundation.framework in Frameworks */,
+				6498676F1691149700BCE028 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6498675B1691149700BCE028 = {
+			isa = PBXGroup;
+			children = (
+				6430AF9D16913BBF008A42EC /* bgFolder.png */,
+				6498678F169129BC00BCE028 /* bg2.png */,
+				6498678D1691170300BCE028 /* bg.png */,
+				649867701691149700BCE028 /* VSFolder */,
+				649867691691149700BCE028 /* Frameworks */,
+				649867671691149700BCE028 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		649867671691149700BCE028 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				649867661691149700BCE028 /* VSFolder.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		649867691691149700BCE028 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6498676A1691149700BCE028 /* UIKit.framework */,
+				6498676C1691149700BCE028 /* Foundation.framework */,
+				6498676E1691149700BCE028 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		649867701691149700BCE028 /* VSFolder */ = {
+			isa = PBXGroup;
+			children = (
+				649867791691149800BCE028 /* AppDelegate.h */,
+				6498677A1691149800BCE028 /* AppDelegate.m */,
+				649867821691149800BCE028 /* ViewController.h */,
+				649867831691149800BCE028 /* ViewController.m */,
+				649867851691149800BCE028 /* ViewController.xib */,
+				649867711691149700BCE028 /* Supporting Files */,
+			);
+			path = VSFolder;
+			sourceTree = "<group>";
+		};
+		649867711691149700BCE028 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				649867721691149700BCE028 /* VSFolder-Info.plist */,
+				649867731691149700BCE028 /* InfoPlist.strings */,
+				649867761691149700BCE028 /* main.m */,
+				649867781691149800BCE028 /* VSFolder-Prefix.pch */,
+				6498677C1691149800BCE028 /* Default.png */,
+				6498677E1691149800BCE028 /* Default@2x.png */,
+				649867801691149800BCE028 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		649867651691149700BCE028 /* VSFolder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6498678A1691149800BCE028 /* Build configuration list for PBXNativeTarget "VSFolder" */;
+			buildPhases = (
+				649867621691149700BCE028 /* Sources */,
+				649867631691149700BCE028 /* Frameworks */,
+				649867641691149700BCE028 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VSFolder;
+			productName = VSFolder;
+			productReference = 649867661691149700BCE028 /* VSFolder.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6498675D1691149700BCE028 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = yourcompany;
+			};
+			buildConfigurationList = 649867601691149700BCE028 /* Build configuration list for PBXProject "VSFolder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6498675B1691149700BCE028;
+			productRefGroup = 649867671691149700BCE028 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				649867651691149700BCE028 /* VSFolder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		649867641691149700BCE028 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649867751691149700BCE028 /* InfoPlist.strings in Resources */,
+				6498677D1691149800BCE028 /* Default.png in Resources */,
+				6498677F1691149800BCE028 /* Default@2x.png in Resources */,
+				649867811691149800BCE028 /* Default-568h@2x.png in Resources */,
+				649867871691149800BCE028 /* ViewController.xib in Resources */,
+				6498678E1691170300BCE028 /* bg.png in Resources */,
+				64986790169129BC00BCE028 /* bg2.png in Resources */,
+				6430AF9E16913BBF008A42EC /* bgFolder.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		649867621691149700BCE028 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				649867771691149800BCE028 /* main.m in Sources */,
+				6498677B1691149800BCE028 /* AppDelegate.m in Sources */,
+				649867841691149800BCE028 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		649867731691149700BCE028 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649867741691149700BCE028 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		649867851691149800BCE028 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				649867861691149800BCE028 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		649867881691149800BCE028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		649867891691149800BCE028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6498678B1691149800BCE028 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSFolder/VSFolder-Prefix.pch";
+				INFOPLIST_FILE = "VSFolder/VSFolder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6498678C1691149800BCE028 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "VSFolder/VSFolder-Prefix.pch";
+				INFOPLIST_FILE = "VSFolder/VSFolder-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		649867601691149700BCE028 /* Build configuration list for PBXProject "VSFolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				649867881691149800BCE028 /* Debug */,
+				649867891691149800BCE028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6498678A1691149800BCE028 /* Build configuration list for PBXNativeTarget "VSFolder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6498678B1691149800BCE028 /* Debug */,
+				6498678C1691149800BCE028 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6498675D1691149700BCE028 /* Project object */;
+}
