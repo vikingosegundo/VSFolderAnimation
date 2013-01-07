@@ -3,12 +3,12 @@ VSFolderAnimation
 
 mimicking the iOS Springboard's folder animation 
 
-Image files:
+## Image files:
 
-http://wegraphics.net/downloads/free-black-canvas-textures/
+http://wegraphics.net/downloads/free-black-canvas-textures/  
 http://wegraphics.net/downloads/free-stained-canvas-backgrounds/
 
-Licence for source code (does not include image files)
+## Licence for source code (does not include image files)
 
            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
                    Version 2, December 2004
