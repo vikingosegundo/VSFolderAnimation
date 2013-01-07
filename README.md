@@ -3,6 +3,8 @@ VSFolderAnimation
 
 mimicking the iOS Springboard's folder animation 
 
+http://stackoverflow.com/questions/14090934/how-should-i-go-about-recreating-the-ios-home-screen-open-folder-animation/14091216#14091216
+
 ## Image files:
 
 http://wegraphics.net/downloads/free-black-canvas-textures/  
