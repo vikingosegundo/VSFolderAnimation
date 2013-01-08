@@ -1,7 +1,8 @@
 VSFolderAnimation
 =================
 
-mimicking the iOS Springboard's folder animation 
+mimicking the iOS Springboard's folder animation.  
+Just a proof of concept.
 
 http://stackoverflow.com/questions/14090934/how-should-i-go-about-recreating-the-ios-home-screen-open-folder-animation/14091216#14091216
 
