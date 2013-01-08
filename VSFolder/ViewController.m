@@ -26,12 +26,23 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    UILabel *lablel = [[UILabel alloc] initWithFrame:CGRectMake(120, 200, 200, 44)];
+    lablel.backgroundColor = [UIColor orangeColor];
+    lablel.text = @"hello World";
+    
+    UILabel *label2 = [[UILabel alloc] initWithFrame:lablel.frame];
+    label2.backgroundColor = lablel.backgroundColor;
+    label2.text = lablel.text;
 
     UIImage *bgImg = [UIImage imageNamed:@"bg.png"];
     self.upperImageView = [[UIImageView alloc] initWithImage:bgImg];
     self.lowerImageView = [[UIImageView alloc] initWithImage:bgImg];
     [self.upperImageView setContentMode:UIViewContentModeTop];
     [self.lowerImageView setContentMode:UIViewContentModeTop];
+    
+    [self.upperImageView addSubview:lablel];
+    [self.lowerImageView addSubview:label2];
     
     self.upperView = [[UIView alloc] initWithFrame:self.upperImageView.frame];
     self.lowerView = [[UIView alloc] initWithFrame:self.lowerImageView.frame];
